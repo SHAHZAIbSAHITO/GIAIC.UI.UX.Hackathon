@@ -13,7 +13,7 @@ export default function Selling() {
           Top Selling
         </h1>
         <div className=" w-full h-fit flex flex-col md:flex-row items-center justify-between md:mx-[100px] gap-4 md:gap-8 mt-10">
-          {/* card1 */}
+          
           <Card
             imageUrl="/p5.png"
             h1="VERTICAL STRIPED SHIRT"
@@ -21,7 +21,7 @@ export default function Selling() {
             ranking="4.5/5"
             price={100}
             className="w-[200px] h-[200px] md:w-[295px] md:h-[298px] rounded-[13.42px] md:rounded-[20px]" id={5}          />
-          {/* card2 */}
+          
           <Card
             imageUrl="/p6.png"
             h1="COURAGE GRAPHIC T-SHIRT"
@@ -30,7 +30,7 @@ export default function Selling() {
             price={145}
             className="w-[200px] h-[200px] md:w-[295px] md:h-[298px] rounded-[13.42px] md:rounded-[20px]" id={6}          />
 
-          {/* card3 */}
+          
           <Card
             imageUrl="/p7.png"
             h1="LOOSE FIT BERMUDA SHORTS"
@@ -39,7 +39,7 @@ export default function Selling() {
             price={80}
             className=" md:block  md:w-[295px] md:h-[298px] md:rounded-[20px] md:bg-[#F0EEED]" id={7}          />
 
-          {/* card4 */}
+        
           <Card
             imageUrl="/p8.png"
             h1="FADED SKINNY JEANS"

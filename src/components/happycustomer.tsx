@@ -15,15 +15,15 @@ export default function HappyCustomers() {
             className="w-[280px] xs:w-[320px] sm:w-[350px] md:w-[386px] h-auto sm:h-[220px] md:h-[240px] text-base sm:text-lg md:text-xl border border-[#0000001A] rounded-[20px] p-4 sm:p-5 md:py-[28px] md:px-[32px] flex flex-col gap-3 sm:gap-4 md:gap-5 flex-shrink-0"
           >
             <div className="flex gap-1">
-              {[...Array(5)].map((_, index) => (
+               {[...Array(5)].map((_, index) => (
                 <IoStarSharp key={index} color="yellow" className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
               ))}
             </div>
-            <p className="text-base sm:text-lg md:text-lg font-semibold flex items-center gap-2">
-              {customer.name}
+             <p className="text-base sm:text-lg md:text-lg font-semibold flex items-center gap-2">
+                {customer.name}
               {customer.verified && (
                 <span className="text-white bg-green-600 rounded-full text-xs sm:text-sm p-0.5">✔</span>
-              )}
+               )}
             </p>
             <p className="text-xs sm:text-sm md:text-sm">{customer.review}</p>
           </div>

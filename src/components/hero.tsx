@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
     return (
         <section className="w-full h-auto bg-[#F2F0F1] flex flex-col md:flex-row justify-between font-sans">
-            {/* Left Content */}
+            
             <div className="flex-1 flex flex-col justify-center items-start gap-4 sm:gap-6 p-6 sm:p-8 md:px-[100px] lg:px-[120px] xl:px-[140px]">
                 <h1 className="w-full sm:w-[315px] md:w-[577px] text-black text-2xl sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-extrabold leading-tight sm:leading-8 md:leading-[1.2] lg:leading-[64px] mb-2 sm:mb-3 md:mb-5 font-integral">
                     FIND CLOTHES THAT MATCHES YOUR STYLE
@@ -16,7 +16,7 @@ export default function Hero() {
                 </button>
             </div>                                
 
-            {/* Right Background */}
+            
             <div className="relative overflow-hidden w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] md:flex-1">
                 <Image
                     src={'/hero-background.jpeg'}

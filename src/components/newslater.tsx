@@ -8,7 +8,7 @@ export default function NewsLetter() {
           STAY UPTO DATE ABOUT OUR LATEST OFFERS
         </div>
 
-        {/* right div */}
+        {/* Right div */}
         <div className="flex-1 w-full md:w-[349px] h-auto md:h-[108px] flex flex-col items-center justify-center gap-4">
           <div className="relative w-full md:w-[349px] h-[46px] rounded-[62px] bg-white py-2 px-4">
             <span className="absolute inset-y-0 left-4 flex items-center text-[#00000066]">

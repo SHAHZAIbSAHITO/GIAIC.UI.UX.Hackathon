@@ -21,12 +21,12 @@ export default function Header() {
 
   return (
     <header className="  w-full">
-      {/* Promo Banner */}
+    
       {showBanner && (
-        <div className="w-full bg-black text-white py-2.5">
+           <div className="w-full bg-black text-white py-2.5">
           <div className="container mx-auto px-4  flex justify-end md:gap-[500px]  items-center">
-            <div className="flex gap-2 text-[12px] md:text-[14px] mx-auto  sm:mx-0">
-              <span>Sign up and get 20% off to your first order.</span>
+              <div className="flex gap-2 text-[12px] md:text-[14px] mx-auto  sm:mx-0">
+                <span>Sign up and get 20% off to your first order.</span>
               <Link href="/" className="hover:underline">
                 Sign Up Now
               </Link>
@@ -43,9 +43,9 @@ export default function Header() {
         </div>
       )}
 
-      {/* Main Header */}
+    
       <div className="bg-white border-b">
-        <div className="container mx-auto px-4 py-4">
+          <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-4">
             {/* Mobile Menu */}
             <Sheet>
@@ -71,9 +71,9 @@ export default function Header() {
                     />
                   </svg>
                 </Button>
-              </SheetTrigger>
-              <SheetContent side="left" className="w-[300px] sm:w-[400px]">
-                <SheetHeader>
+                </SheetTrigger>
+                <SheetContent side="left" className="w-[300px] sm:w-[400px]">
+                 <SheetHeader>
                   <SheetTitle className="text-left">Menu</SheetTitle>
                 </SheetHeader>
                 <div className="grid gap-4 py-4">
@@ -96,16 +96,16 @@ export default function Header() {
                     New Arrivals
                   </Link>
                   <Link
-                    href={"#drassstyless"}
+                       href={"#drassstyless"}
                     className="text-lg hover:underline"
                   >
                     Brands
-                  </Link>
+                    </Link>
                 </div>
-              </SheetContent>
+                </SheetContent>
             </Sheet>
 
-            {/* Logo */}
+          
             <Link
               href="/"
               className="text-[25.2px] font-bold leading-[30.24px] font-integral-extra"
@@ -113,9 +113,9 @@ export default function Header() {
         <h1 className="text-[25.2px] md:text-5xl font-extrabold leading-[30.24px] md:leading-[38.4px] font-integral-extra">
  SHOP.CO
 </h1>
-            </Link>
+             </Link>
 
-            {/* Desktop Navigation */}
+          
             <nav className="hidden lg:block">
               <ul className="flex items-center gap-6 text-base">
                 <li className="flex items-center">
@@ -142,7 +142,7 @@ export default function Header() {
               </ul>
             </nav>
 
-            {/* Search and Icons */}
+            
             <div className="flex items-center gap-4 flex-1 lg:flex-none justify-end lg:justify-start">
               <div className="hidden sm:flex items-center flex-1 max-w-[577px] h-[45px] rounded-[62px] px-4 bg-[#F0F0F0]">
                 <IoIosSearch className="w-5 h-5 text-gray-500" />

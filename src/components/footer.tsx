@@ -11,7 +11,7 @@ export default function Footer(){
     <div className="  h-[846px] w-full md:h-[499px] mt-[100px] md:mt-0 flex items-center justify-center gap-24 ">
         <footer className="md:w-[1240px] md:h-[144px]  flex flex-col gap-5 md:gap-4 md:flex-row items-center justify-between ">
 
-            {/* div1 */}
+            
             <div className=" flex flex-col items-left gap-6 md:mr-[100px]">
                 <h2 className="font-integral text-[33.45px] font-bold leading-[40.15px] text-black ">SHOP.CO</h2>
                 <p className="w-[248px] h-[66px] font-satoshi text-[14px] font-normal leading-[22px] text-[#00000099]">We have clothes that suits your style and which you proud to wear. From women to men.</p>
@@ -26,8 +26,8 @@ export default function Footer(){
 
                 </div>
             </div>
-            {/* div1 ends here */}
-            {/* div2 starts here */}
+
+            
             <div className=" w-full flex  flex-col md:flex-row items-start md:items-center gap-6 justify-between ">
             <div className=" flex flex-col flex-nowrap gap-4" >
                 <h1 className="text-[16px] font-medium leading-[18px] tracking-[3px text-black uppercase">Company</h1>
@@ -40,11 +40,11 @@ export default function Footer(){
 
                     <p>Career </p> 
                 </div>
-                {/* div2 ends here */}           
+                         
 
             </div>
 
-             {/* div3 starts here */}
+             
 
              <div className=" flex flex-col gap-[26px]" >
                 <h1 className="text-[16px] font-medium leading-[18px] tracking-[3px text-black uppercase">Help</h1>
@@ -57,11 +57,11 @@ export default function Footer(){
 
                     <p>Privacy Policy </p> 
                 </div>
-                {/* div3 ends here */}           
+                 
 
             </div>
 
-             {/* div4 starts here */}
+            
 
              <div className=" flex flex-col gap-[26px] " >
                 <h1 className="text-[16px] font-medium leading-[18px] tracking-[3px text-black uppercase">FAQ</h1>
@@ -74,11 +74,11 @@ export default function Footer(){
 
                     <p>Payments </p> 
                 </div>
-                {/* div4 ends here */}           
+                         
 
             </div>
 
-             {/* div5 starts here */}
+             
 
              <div className=" flex flex-col gap-[26px]" >
                 <h1 className="text-[16px] font-medium leading-[18px] tracking-[3px text-black uppercase">Resources</h1>
@@ -91,7 +91,7 @@ export default function Footer(){
 
                     <p>Youtube Playlist </p> 
                 </div>
-                {/* div5 ends here */}           
+                          
 
             </div>
              
