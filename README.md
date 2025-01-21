@@ -1,3 +1,8 @@
+NEXT_PUBLIC_SANITY_PROJECT_ID="zzzvj0yq"
+NEXT_PUBLIC_SANITY_DATASET="production"
+SANITY_API_TOKEN=skALhlnVAHYCpBUPIUWYpapPR6644PfBmK7kDkyM8CMMOOe4JNohTCAqJmepV36ZYrZe1B4KQ7eNB4DzLxRi8ysEVt5Iex1WwzoiGgxttODogFtzy3bYiqIf1GnJn4CVyaA4I2OtSGELeC0tWPmTB1BJuWGFZXnMAxm0ZQDGjdxyXTxmGUsb
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
