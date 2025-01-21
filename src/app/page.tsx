@@ -3,6 +3,7 @@ import DressStyle from "@/components/drassstyle";
 import HappyCustomers from "@/components/happycustomer";
 import Hero from "@/components/hero";
 import LogoBar from "@/components/herobuttom";
+import ProductCards from "@/app/products/page";
 
 import Selling from "@/components/selling";
 
@@ -17,7 +18,7 @@ export default function Home() {
   <Selling/>
   <DressStyle/>
   <HappyCustomers/>
-  
+   <ProductCards/> 
   </div>
   </>
   );
